@@ -1,0 +1,28 @@
+-Các ông lớn đợc làm từ react sử dụng SPA:  Google, facebook....
+
+-SPA không yêu cầu tải lại trang khi mình đang sử dụng 
+
+//Arrow function 
+//Định nghĩa key: value cho object
+
+    var name: 'JS basic'
+    var price: 1000
+    var course = {
+        name,
+        price
+    }
+    console.log(course) /// định nghĩa key cho value của object
+//Định nghĩa method cho object
+     var name: 'JS basic'
+    var price: 1000
+    var course = {
+        name,
+        price,
+        getName(){
+            return name;
+        }
+    }
+    console.log(course.getName())
+//Định nghĩa key cho object dưới dạng biến
+var fieldName = 'Name'
+varfieldPrice = 'price'

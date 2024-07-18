@@ -1,0 +1,43 @@
+
+const Header = () => {
+  return (
+    <div className="container_Header">
+        <div className="Header">
+            <div className="Title_header bg-[#404040] p-[5px] w-full">
+                <span className="flex gap-1 justify-center items-center text-[#FFFF]">
+                    <b className=" font-medium text-sm">codedeco</b> <p>-</p> <p className=" text-sm">  tạo dựng thương hiệu tinh dầu chất lượng và cam kết bảo hành đến giọt hương cuối cùng.</p>
+                </span>
+            </div>
+            <div className="Menu w-full bg-black">
+                <div className="logo">
+                    <img src="https://codedeco.art/wp-content/uploads/2023/03/logo-1-2.png" width={183} height={58} alt="" />
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href=""></a>
+                        </li>
+                        <li>
+                            <a href=""></a>
+                        </li>
+                        <li>
+                            <a href=""></a>
+                        </li>
+                        <li>
+                            <a href=""></a>
+                        </li>
+                    </ul>
+                </nav>
+                <div className="search">
+
+                </div>
+                <div className="cart">
+
+                </div>
+            </div>
+        </div>
+    </div>
+  )
+}
+
+export default Header

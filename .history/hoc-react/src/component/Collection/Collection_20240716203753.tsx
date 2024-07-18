@@ -1,0 +1,19 @@
+import React, { ReactNode } from "react"
+
+type TCollection={
+    img?: string;
+    label: string;
+}
+
+const Collection = ({label,img}:TCollection) => {
+  return (
+    <div className="flex flex-col justify-center items-center" >
+        <img src={img} width={105} alt={label} />
+        <div className="mb-[15px]">
+            {label}
+        </div>
+    </div>
+  )
+}
+
+export default Collection
