@@ -1,6 +1,6 @@
 import img7 from '../../public/img/img7.png'
 import img7I from '../../public/img/img7.1.png'
-import img7II from '../../public/img/thaoly.jpg'
+import img7II from '../../public/img/TLjpg.jpg'
 const ThaoLy = () => {
   return (
     <div className="mt-32 mb-5  w-[1120px]  flex justify-around flex-col  m-auto leading-7">
@@ -27,8 +27,8 @@ const ThaoLy = () => {
         <p className='text-[20px] font-[600]'>PHÂN BIỆT CÁC LOẠI NỒNG ĐỘ NƯỚC HOA</p>
         <p className='mt-2 mb-7'>Tất cả các loại đều bắt đầu bằng chữ Eau, trong tiếng Pháp có nghĩa là “nước”, có 5 loại phổ biến sau:</p>
         <div className=''>
-          <img className='h-[550px] w-[1050px]' src={img7II} alt="" />
-          <div className='mx- mt-2'>
+          <img className='h-[550px] w-[900px]' src={img7II} alt="" />
+          <div className='w-[450px] mx-2'>
             <div>
               <p>Hy vọng với những thông tin CODEDECO mang lại sẽ giúp cho các bạn chọn được loại mùi hương có nồng độ phù hợp với bản thân nhất.</p>
             </div>
