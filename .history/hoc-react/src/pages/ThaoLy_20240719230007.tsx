@@ -27,7 +27,7 @@ const ThaoLy = () => {
         <p className='text-[20px] font-[600]'>PHÂN BIỆT CÁC LOẠI NỒNG ĐỘ NƯỚC HOA</p>
         <p className='mt-2 mb-7'>Tất cả các loại đều bắt đầu bằng chữ Eau, trong tiếng Pháp có nghĩa là “nước”, có 5 loại phổ biến sau:</p>
         <div className='flex w-[1250px] gap-2 items-center'>
-          <img className='h-[550px] w-[800px]' src={img7II} alt="" />
+          <img className='h-[530px] w-[800px]' src={img7II} alt="" />
           <div className='w-[450px] mx-2'>
             <div>
               <p>Hy vọng với những thông tin CODEDECO mang lại sẽ giúp cho các bạn chọn được loại mùi hương có nồng độ phù hợp với bản thân nhất.</p>

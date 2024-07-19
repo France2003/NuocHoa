@@ -26,16 +26,16 @@ const ThaoLy = () => {
       <div className='mx-9 mt-5 m'>
         <p className='text-[20px] font-[600]'>PHÂN BIỆT CÁC LOẠI NỒNG ĐỘ NƯỚC HOA</p>
         <p className='mt-2 mb-7'>Tất cả các loại đều bắt đầu bằng chữ Eau, trong tiếng Pháp có nghĩa là “nước”, có 5 loại phổ biến sau:</p>
-        <div className='flex w-[1250px] gap-2 items-center'>
-          <img className='h-[550px] w-[800px]' src={img7II} alt="" />
-          <div className='w-[450px] mx-2'>
+        <div className='flex w-[1200px] gap-3 flex-wrap'>
+          <img className='h-[450px] w-[800px]' src={img7II} alt="" />
+          <div className='w-[450px] mx-2 absolute my-[500px]'>
             <div>
               <p>Hy vọng với những thông tin CODEDECO mang lại sẽ giúp cho các bạn chọn được loại mùi hương có nồng độ phù hợp với bản thân nhất.</p>
             </div>
             <div>
               <p className='text-[16px] font-[600]'>CODEDECO VIETNAM</p>
               <ul className='list-disc mx-5'>
-                <li><b>Facebook:</b> <a style={{textDecorationLine:'underline',fontSize:15}} href="https://www.facebook.com/profile.php?id=61555159087139" target='_blank'>CODEDECO - SCENTS CODE FOR YOUR STYLE</a></li>
+                <li><b>Facebook:</b> <a style={{textDecorationLine:'underline'}} href="https://www.facebook.com/profile.php?id=61555159087139" target='_blank'>https://www.facebook.com/profile.php?id=61555159087139</a></li>
                 <li><b>Instagram:</b> @codedeco.official</li>
                 <li><b>Shopee:</b> https://shopee.vn/codedeco.official</li>
                 <li><b>Hotline:</b> 0967.077.882 – CSKH : 0383.226.567</li>
