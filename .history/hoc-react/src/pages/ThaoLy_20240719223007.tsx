@@ -38,7 +38,7 @@ const ThaoLy = () => {
             <div>
               <p className='text-[16px] font-[600]'>CODEDECO VIETNAM</p>
               <ul className='list-disc mx-5'>
-                <li><b>Website:</b> <a style={{textDecorationLine:'underline'}}  href="https://france2003.github.io/NuocHoa/" target='_blank'>https://france2003.github.io/NuocHoa/</a></li>
+                <li><b>Website:</b> <a style={{textDecorationLine:'underline'}}  href="https://france2003.github.io/NuocHoa/" target='_blank'></a>https://france2003.github.io/NuocHoa/</li>
                 <li><b>Facebook:</b> <a style={{textDecorationLine:'underline'}} href="https://www.facebook.com/profile.php?id=61555159087139" target='_blank'>https://www.facebook.com/profile.php?id=61555159087139</a></li>
                 <li><b>Instagram:</b> @codedeco.official</li>
                 <li><b>Shopee:</b> https://shopee.vn/codedeco.official</li>
