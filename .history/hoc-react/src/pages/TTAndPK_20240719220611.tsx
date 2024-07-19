@@ -1,0 +1,30 @@
+import { Helmet } from "react-helmet";
+import { ttpk } from "../data/TTvaPK";
+
+const ThoiTrangPhuKien = () => {
+    return (
+        <div className="mt-32">
+            <h1 className="text-[#333] text-[20px] uppercase font-[500] mx-12 tracking-wider mb-2">THỜI TRANG VÀ PHỤ KIỆN</h1>
+            <div className="flex mt-20 mb-9 justify-evenly mx-auto flex-wrap gap-y-24 w-[1390px] gap-[25px]">
+                {ttpk.map((ttpk) => {
+                    return (
+                        <div className="w-[300px]  h-[350px] flex flex-col justify-center items-center">
+                            <Helmet>
+                                <meta charSet="utf-8" />
+                                <title>THỜI TRANG VÀ PHỤ KIỆN</title>
+                                <link rel="canonical" href="http://mysite.com/example" />
+                            </Helmet>
+                            <img className="m-auto" width={250} height={200} src={ttpk.img} alt={ttpk.infomation} />
+                            <div className="Title text-center leading-7">
+                                <p className="text-[#878787] text-[14px] mt-5">{ttpk.sex}</p>
+                                <p className="text-[18px] font-medium inline-block text-[#333]">{ttpk.infomation}</p>
+                                <b className="inline text-[17.4px] font-[600]">{ttpk.price}</b>
+                            </div>
+                        </div>
+                    )
+                })}
+            </div>
+        </div>
+    )
+}
+export default ThoiTrangPhuKien;

@@ -1,0 +1,23 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import NavbarItem from '../NavItem';
+
+const TraiNghiemMenu: React.FC = () => {
+  return (
+    <div className="relative inline-block group">
+        <div>
+            <Link to={"/"}> <NavbarItem  label="LAN TỎA HƯƠNG THƠM" /> </Link>
+        </div>
+        <div className='triangle'>
+            
+        </div>
+      <ul className="navmenu ml-[-20px] mt-[12px] bg-white border-2 absolute w-[260px] text-black">
+        <li className="bg-white hover:bg-slate-100 hover:text-[#5d5d5d] px-4 block whitespace-no-wrap flex gap-3"> Giỏ Nước Hoa By CODEDECO</li>
+        <li className="bg-white hover:bg-slate-100 hover:text-[#5d5d5d] py-2 px-4 block whitespace-no-wrap flex gap-3"> Trải Nghiệm Giỏ Nước Hoa</li>
+        <li className="bg-white hover:bg-slate-100 hover:text-[#5d5d5d]  py-2 px-4 block whitespace-no-wrap flex gap-3"> Lan Tỏa Hương Thơm Cùng CODEDECO</li>      
+      </ul>
+    </div>
+  );
+};
+
+export default TraiNghiemMenu;
