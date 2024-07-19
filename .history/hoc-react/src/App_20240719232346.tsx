@@ -6,7 +6,7 @@ import PageHome from './pages/PageHome'
 import BrandStoryPage from './pages/BrandStoryPage'
 import MediaPage from './pages/MediaPage'
 import GiaHan from './pages/GiaHan'
-// import ThaoLy from './pages/ThaoLy'
+import ThaoLy from './pages/ThaoLy'
 import NhatVy from './pages/NhatVy'
 import ThuThuy from './pages/ThuThuy'
 import ThanhPhuong from './pages/ThanhPhuong'
@@ -25,7 +25,6 @@ import NenThom from './pages/NenThom'
 import TinhDau from './pages/TinhDau'
 import ThoiTrangPhuKien from './pages/TTAndPK'
 import MyPham from './pages/MyPham'
-import ThaoLy from './pages/ThaoLy'
 
 
 function App() {
