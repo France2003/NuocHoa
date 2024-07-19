@@ -1,0 +1,20 @@
+
+type TMediaProc = {
+    img: string;
+    title: string;
+    content: string
+}
+
+const MediaProc = ({ img, title, content }: TMediaProc) => {
+    return (
+        <div className="flex flex-wrap justify-around">
+            <div className="w-[363px] h-[362] gap-3 flex flex-col ">
+                <img src={img} alt={title} className="h-[171px] w-[360px]" />
+                <p className="text-[#383838] text-[15px] font-[500] uppercase ">{title}</p>
+                <p className="text-[#2d2d2d] text-[14.5px] leading-6 ">{content}</p>
+            </div>
+        </div>
+    )
+}
+
+export default MediaProc
