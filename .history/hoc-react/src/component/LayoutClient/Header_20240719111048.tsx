@@ -49,7 +49,7 @@ const Header = () => {
                     <nav className="text-lg">
                         <ul className="flex justify-center items-center gap-4">
                             <li className="flex justify-center items-center text-white ">
-                                <Link to={`/NuocHoa/brandstory`}> <NavbarItem type="nav-active" label="CÂU CHUYỆN THƯƠNG HIỆU" /> </Link>
+                                <Link to={"/"}> <NavbarItem type="nav-active" label="CÂU CHUYỆN THƯƠNG HIỆU" /> </Link>
                                 <p className="boder">|</p>
                             </li>
                             <li className="flex justify-center items-center text-white">
@@ -59,11 +59,11 @@ const Header = () => {
                                 <p className="boder">|</p>
                             </li>
                             <li className="flex justify-center items-center text-white">
-                                <Link to={"/NuocHoa/media"}> <NavbarItem label="PHƯƠNG TIỆN TRUYỀN THÔNG" /> </Link>
+                                <Link to={"media"}> <NavbarItem label="PHƯƠNG TIỆN TRUYỀN THÔNG" /> </Link>
                                 <p className="boder">|</p>
                             </li>
                             <li>
-                                <Link to={"/NuocHoa/lienhe"}> <NavbarItem label="LIÊN HỆ" /> </Link>
+                                <Link to={"lienhe"}> <NavbarItem label="LIÊN HỆ" /> </Link>
                             </li>
                         </ul>
                     </nav>

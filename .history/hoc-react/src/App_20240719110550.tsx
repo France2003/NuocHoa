@@ -24,7 +24,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/NuocHoa/' element={<LayoutClient/>}>
+          <Route path='/NuocHoa' element={<LayoutClient/>}>
             <Route index element={<PageHome/>}/>
             <Route path='brandstory' element={<BrandStoryPage/>}/>
             <Route path='media' element={<MediaPage/>}/>
